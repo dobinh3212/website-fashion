@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-md-7 col-sm-6 col-xs-12">
                     <p class="font-26 mar-bot-0">{{ $product->name }}</p>
-                    <img src= "{{asset('public/frontend/assets/images/star-rating.png')}} " alt="">
+                    <img src= "{{asset('/frontend/assets/images/star-rating.png')}} " alt="">
                     <div class="clearfix mar-top-10"></div>
                     <p class="font-20 orange pull-left">
 
@@ -135,7 +135,7 @@
 <br>
 <br>
 <br>
-<div class="banner hidden-xs hidden-sm"> <img src="{{asset('public/frontend/assets/images/banner-long.jpg')}}" alt="" class="img-responsive"></div>
+<div class="banner hidden-xs hidden-sm"> <img src="{{asset('/frontend/assets/images/banner-long.jpg')}}" alt="" class="img-responsive"></div>
 @endsection
 @section('scripts')
 

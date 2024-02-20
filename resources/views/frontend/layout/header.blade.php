@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3 hidden-sm hidden-xs">
-                    <a href="{{url('/')}}"><img src="{{asset('public/frontend/assets/images/logo-no-line.jpg')}}" alt="" class="img-responsive"></a>
+                    <a href="{{url('/')}}"><img src="{{asset('/frontend/assets/images/logo-no-line.jpg')}}" alt="" class="img-responsive"></a>
                 </div>
                 <div class="col-md-6 col-sm-7 col-xs-12">
                     <div class="header-search">

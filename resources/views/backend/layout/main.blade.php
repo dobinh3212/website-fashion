@@ -6,21 +6,21 @@
     <title>@yield('title')</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="icon" type="image/png" sizes="16x16"  href="{{asset('public/frontend/assets/images/favicon-16x16.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16"  href="{{asset('/frontend/assets/images/favicon-16x16.png')}}">
     <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="{{asset('public/backend/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('public/backend/bower_components/font-awesome/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/bower_components/font-awesome/css/font-awesome.min.css')}}">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="{{asset('public/backend/bower_components/Ionicons/css/ionicons.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/backend/bower_components/Ionicons/css/ionicons.min.css')}}">
     <!-- Theme style -->
 
-    <link rel="stylesheet" href="{{asset('public/backend/dist/css/AdminLTE.min.css')}} ">
+    <link rel="stylesheet" href="{{asset('/backend/dist/css/AdminLTE.min.css')}} ">
 
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="{{asset('public/backend/dist/css/skins/_all-skins.min.css')}} ">
+    <link rel="stylesheet" href="{{asset('/backend/dist/css/skins/_all-skins.min.css')}} ">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -274,19 +274,19 @@
 
 <!-- jQuery 3 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-{{--<script src="{{asset('public/backend/bower_components/jquery/dist/jquery.min.js')}}  "></script>--}}
+{{--<script src="{{asset('/backend/bower_components/jquery/dist/jquery.min.js')}}  "></script>--}}
 <!-- Bootstrap 3.3.7 -->
-<script src="{{asset('public/backend/bower_components/bootstrap/dist/js/bootstrap.min.js')}}  "></script>
-<script src="{{asset('public/backend/dist/js/sweetalert2.all.min.js')  }} "></script>
+<script src="{{asset('/backend/bower_components/bootstrap/dist/js/bootstrap.min.js')}}  "></script>
+<script src="{{asset('/backend/dist/js/sweetalert2.all.min.js')  }} "></script>
 <script src="https://cdn.ckeditor.com/4.16.2/full/ckeditor.js"></script>
 
-<script src=" {{asset('public/backend/dist/js/main.js')}}  "></script>
+<script src=" {{asset('/backend/dist/js/main.js')}}  "></script>
 <!-- FastClick -->
-<script src="{{asset('public/backend/bower_components/fastclick/lib/fastclick.js')}}  "></script>
+<script src="{{asset('/backend/bower_components/fastclick/lib/fastclick.js')}}  "></script>
 <!-- AdminLTE App -->
-<script src="{{asset('public/backend/dist/js/adminlte.min.js')}}   "></script>
+<script src="{{asset('/backend/dist/js/adminlte.min.js')}}   "></script>
 <!-- AdminLTE for demo purposes -->
-<script src=" {{asset('public/backend/dist/js/adminlte.min.js')}}  "></script>
+<script src=" {{asset('/backend/dist/js/adminlte.min.js')}}  "></script>
 
 @yield('scripts')
 </body>

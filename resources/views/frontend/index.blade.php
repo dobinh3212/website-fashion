@@ -70,17 +70,17 @@
         </div>
         <div class="clearfix"></div>
         <div class="row wow home-1 bounceInLeft hidden-sm hidden-xs" data-wow-duration="2s">
-            <div class="col-md-6 col-sm-12"> <img src="{{asset('public/frontend/assets/images/b-4.jpg')}}" alt="" class="img-responsive  hvr-float" style="height:332px;"></div>
+            <div class="col-md-6 col-sm-12"> <img src="{{asset('/frontend/assets/images/b-4.jpg')}}" alt="" class="img-responsive  hvr-float" style="height:332px;"></div>
             <div class="col-md-3 col-sm-3">
                 <div class="row">
                     <ul class="list-unstyled man-li">
-                        <li><img src="{{asset('public/frontend/assets/images/b-7.jpg')}}" alt="" class="img-responsive hvr-float"></li>
-                        <li><img src="{{asset('public/frontend/assets/images/b-9.jpg')}}" alt="" class="img-responsive hvr-float"></li>
+                        <li><img src="{{asset('/frontend/assets/images/b-7.jpg')}}" alt="" class="img-responsive hvr-float"></li>
+                        <li><img src="{{asset('/frontend/assets/images/b-9.jpg')}}" alt="" class="img-responsive hvr-float"></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3 col-sm-3 last-item">
-                <div class="row"> <img src="{{asset('public/frontend/assets/images/b-5.jpg')}}" alt="" class="img-responsive hvr-float"></div>
+                <div class="row"> <img src="{{asset('/frontend/assets/images/b-5.jpg')}}" alt="" class="img-responsive hvr-float"></div>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -115,7 +115,7 @@
                         <div class="">
                             <a href="{{ route('shop.product',$product->slug) }}"><img style="max-width: 170px;height: auto"   src="{{$product->image}}" alt="" class="img-responsive " ></a> <br>
                             <p class="font-15">{{$product->name}}</p>
-                            <img  src="{{asset('public/frontend/assets/images/star-rating.png')}}" alt="" class="img-responsive mar-bot-7">
+                            <img  src="{{asset('/frontend/assets/images/star-rating.png')}}" alt="" class="img-responsive mar-bot-7">
                             <p class="font-15 orange font-bold"><del class="light-grey lighter">{{ number_format($product->price,0,",",".") }} ₫</del>{{ number_format($product->sale,0,",",".") }} ₫</p>
                         </div>
                             @endforeach
@@ -161,5 +161,5 @@
             </div>
         </div>
     </div>
-    <div class="banner hidden-xs hidden-sm"> <img src="{{asset('public/frontend/assets/images/banner-long.jpg')}}" alt="" class="img-responsive"></div>
+    <div class="banner hidden-xs hidden-sm"> <img src="{{asset('/frontend/assets/images/banner-long.jpg')}}" alt="" class="img-responsive"></div>
 @endsection

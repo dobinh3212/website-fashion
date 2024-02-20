@@ -7,21 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('public/login-form-05/fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/login-form-05/fonts/icomoon/style.css')}}">
 
-    <link rel="stylesheet" href="{{asset('public/login-form-05/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/login-form-05/css/owl.carousel.min.css')}}">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('public/login-form-05/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/login-form-05/css/bootstrap.min.css')}}">
 
     <!-- Style -->
-    <link rel="stylesheet" href="{{asset('public/login-form-05/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/login-form-05/css/style.css')}}">
 
     <title>Đăng Nhập</title>
 </head>
 <body>
 <div class="d-md-flex half">
-    <div class="bg" style="background-image: url({{asset('public/login-form-05/images/bg_1.jpg')}});"></div>
+    <div class="bg" style="background-image: url({{asset('/login-form-05/images/bg_1.jpg')}});"></div>
     <div class="contents">
 
         <div class="container">
@@ -102,9 +102,9 @@
 
 
 
-<script src="{{asset('public/login-form-05/js/jquery-3.3.1.min.js')}} "></script>
-<script src="{{asset('public/login-form-05/ js/popper.min.js')}}  "></script>
-<script src=" {{asset('public/login-form-05/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('public/login-form-05/js/main.js')}}"></script>
+<script src="{{asset('/login-form-05/js/jquery-3.3.1.min.js')}} "></script>
+<script src="{{asset('/login-form-05/ js/popper.min.js')}}  "></script>
+<script src=" {{asset('/login-form-05/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('/login-form-05/js/main.js')}}"></script>
 </body>
 </html>

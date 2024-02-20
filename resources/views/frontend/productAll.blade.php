@@ -3,7 +3,7 @@
     <div class="container">
         <div class="">
             <div class="row">
-                <img src="{{asset('public/frontend/assets/images/carousel-img.png')}}')}}" alt="" class="img-responsive">
+                <img src="{{asset('/frontend/assets/images/carousel-img.png')}}')}}" alt="" class="img-responsive">
 
             </div>
         </div>
@@ -77,9 +77,9 @@
                         </li>
                     </ul>
                 </div>
-                <img src="{{asset('public/frontend/assets/images/collection.jpg')}}" alt="" class="img-responsive"> </div>
+                <img src="{{asset('/frontend/assets/images/collection.jpg')}}" alt="" class="img-responsive"> </div>
 
-            <div class="banner hidden-xs hidden-sm"> <img src=" {{asset('public/frontend/assets/images/banner-long.jpg')}}  " alt="" class="img-responsive"></div>
+            <div class="banner hidden-xs hidden-sm"> <img src=" {{asset('/frontend/assets/images/banner-long.jpg')}}  " alt="" class="img-responsive"></div>
     </div>
 @endsection
 @section('scripts')

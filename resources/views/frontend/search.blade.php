@@ -11,7 +11,7 @@
     <div class="container">
         <div class="">
             <div class="row">
-                <img src="{{asset(' public/frontend/assets/images/carousel-img.png')}}" alt="" class="img-responsive">
+                <img src="{{asset(' /frontend/assets/images/carousel-img.png')}}" alt="" class="img-responsive">
 
             </div>
         </div>
@@ -51,7 +51,7 @@
                     </ul>
                     @else
                         <div class="not-search clearfix">
-                            <img src="{{ asset('public/frontend/assets/images/noti-search.png') }}" alt="">
+                            <img src="{{ asset('/frontend/assets/images/noti-search.png') }}" alt="">
                             <p>Rất tiếc chúng tôi không tìm thấy kết quả theo yêu cầu của bạn</p>
                             <p>Vui lòng thử lại .</p>
                         </div>
@@ -81,9 +81,9 @@
                         </li>
                     </ul>
                 </div>
-                <img src="{{asset('public/frontend/assets/images/collection.jpg')}}" alt="" class="img-responsive"> </div>
+                <img src="{{asset('/frontend/assets/images/collection.jpg')}}" alt="" class="img-responsive"> </div>
 
-        <div class="banner hidden-xs hidden-sm"> <img src=" {{asset('public/frontend/assets/images/banner-long.jpg')}}  " alt="" class="img-responsive"></div>
+        <div class="banner hidden-xs hidden-sm"> <img src=" {{asset('/frontend/assets/images/banner-long.jpg')}}  " alt="" class="img-responsive"></div>
     </div>
 @endsection
 @section('script')

@@ -175,7 +175,7 @@ class ShopController extends Controller
             $arr_viewed_product = json_encode($arr_viewed_product); // { "ten" : "gia tri"  }
             setcookie('list_product_viewed', $arr_viewed_product , time() + (30*86400));
         }
-
+        $viewedProducts = [];
         // bước 2:  lấy ra chi tiết thông tin những sản phẩm đã xem ,từ cookie
         if (!empty($_COOKIE['list_product_viewed'])) {
             $products_viewed =  $_COOKIE['list_product_viewed'];

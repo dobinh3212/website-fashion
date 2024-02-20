@@ -51,7 +51,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group image ">
                                         <label id="avatar">Hình ảnh</label>
-                                        <img id="avatar" class="thumbnail" width="150px" height="auto" src="{{asset('public/backend/dist/img/import-img.png')}}">
+                                        <img id="avatar" class="thumbnail" width="150px" height="auto" src="{{asset('/backend/dist/img/import-img.png')}}">
                                         <input id="img" type="file" name="image" class="form-control src_img">
                                         @error('image')
                                         <small class="form-text text-danger ">

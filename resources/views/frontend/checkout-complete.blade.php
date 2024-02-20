@@ -18,7 +18,7 @@
     <div class="container grid-main">
         <div class="row">
             <div id="content-complete">
-                <img class="img-thumbnail img-responsive" src="{{ asset('public/frontend/assets/images/thank-you.png') }}" alt="">
+                <img class="img-thumbnail img-responsive" src="{{ asset('/frontend/assets/images/thank-you.png') }}" alt="">
                 <h3 class="info">Quý khách đã đặt hàng thành công!</h3>
                 <p>• Cảm ơn quý khách đã sử dụng sản phẩm của cửa hàng chúng tôi.</p>
                 <p>• Nhân viên cửa hàng sẽ liên hệ cho khách hàng trong thời gian sớm nhất để xác nhận đơn hàng của quý khách 1 lần

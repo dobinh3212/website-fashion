@@ -57,7 +57,7 @@ class CartController extends Controller
                         'name' => $product->name,
                         'qty' => $qty,
                         'price' =>str_replace('.', '',$request->input('getPrice')),
-                        'weight'=>'',
+                        'weight'=>'1',
                         'options'=>[
                             'color' => $product->color,
                             'size'  =>$productSize,

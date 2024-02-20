@@ -7,31 +7,31 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="16x16"  href="{{asset('public/frontend/assets/images/favicon-16x16.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16"  href="{{asset('/frontend/assets/images/favicon-16x16.png')}}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Fashion</title>
 
     <!-- Bootstrap -->
-    <link href="{{ asset('public/frontend/assets/css/bootstrap/bootstrap-theme.min.css') }} " rel="stylesheet"
+    <link href="{{ asset('/frontend/assets/css/bootstrap/bootstrap-theme.min.css') }} " rel="stylesheet"
           type="text/css" />
-    <link href="{{asset('public/frontend/assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/frontend/assets/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Font Awesome Styles -->
-    <link type="text/css" rel="stylesheet" href="{{asset('public/frontend/assets/css/font-awesome.css')}}">
-    <link href="{{ asset('public/frontend/assets/css/carousel/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/frontend/assets/css/carousel/owl.theme.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/frontend/assets/css/lightgallery.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/frontend/assets/css/lightslider.css') }}" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="{{asset('/frontend/assets/css/font-awesome.css')}}">
+    <link href="{{ asset('/frontend/assets/css/carousel/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/frontend/assets/css/carousel/owl.theme.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/frontend/assets/css/lightgallery.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/frontend/assets/css/lightslider.css') }}" rel="stylesheet" type="text/css" />
     <!-- Bootstrap Styles -->
-    <link href="{{asset('public/frontend/assets/css/menu-horizontal.css')}}" rel="stylesheet">
+    <link href="{{asset('/frontend/assets/css/menu-horizontal.css')}}" rel="stylesheet">
 
 
-    <link href="{{asset('public/frontend/assets/css/style-horizontal.css')}}   " rel="stylesheet">
+    <link href="{{asset('/frontend/assets/css/style-horizontal.css')}}   " rel="stylesheet">
     <!--animations-->
-    <link href="{{asset('public/frontend/assets/css/animate.css')}}   " rel="stylesheet" type="text/css">
-    <link href="{{asset('public/frontend/assets/css/hover.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('/frontend/assets/css/animate.css')}}   " rel="stylesheet" type="text/css">
+    <link href="{{asset('/frontend/assets/css/hover.css')}}" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -44,26 +44,26 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="{{asset('public/frontend/assets/js/jquery-v11.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/jquery-v11.js')}}"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="{{asset('public/frontend/assets/js/bootstrap.min.js')}}   "></script>
-<script src="{{ asset('public/frontend/assets/js/elevatezoom-master/jquery.elevatezoom.js') }}" type="text/javascript">
+<script src="{{asset('/frontend/assets/js/bootstrap.min.js')}}   "></script>
+<script src="{{ asset('/frontend/assets/js/elevatezoom-master/jquery.elevatezoom.js') }}" type="text/javascript">
 </script>
-<script src="{{ asset('public/frontend/assets/js/carousel/owl.carousel.js') }}" type="text/javascript"></script>
-<script src="{{asset('public/frontend/assets/js/sweetalert2.all.min.js')  }} "></script>
+<script src="{{ asset('/frontend/assets/js/carousel/owl.carousel.js') }}" type="text/javascript"></script>
+<script src="{{asset('/frontend/assets/js/sweetalert2.all.min.js')  }} "></script>
 
 <!-- Main Scripts-->
 
-<script src="{{asset('public/frontend/assets/js/search.js')}}"></script>
-<script src="{{asset('public/frontend/assets/js/ttmenu.js')}}"></script>
-<script src="{{asset('public/frontend/assets/js/readmore.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/search.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/ttmenu.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/readmore.js')}}"></script>
 
-<script src="{{asset('public/frontend/assets/js/main.js')}}"></script>
-<script src="{{asset('public/frontend/assets/js/custom.js')}}"></script>
-<script src="{{asset('public/frontend/assets/js/cart.js')}}"></script>
-<script src="{{ asset('public/frontend/assets/js/lightgallery-all.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('public/frontend/assets/js/lightslider.js') }}" type="text/javascript"></script>
+<script src="{{asset('/frontend/assets/js/main.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/custom.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/cart.js')}}"></script>
+<script src="{{ asset('/frontend/assets/js/lightgallery-all.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/frontend/assets/js/lightslider.js') }}" type="text/javascript"></script>
 
 
 {{--<script>--}}
@@ -72,7 +72,7 @@
 {{--</script>--}}
 
 <!--animations-->
-<script src="{{asset('public/frontend/assets/js/wow.min.js')}}"></script>
+<script src="{{asset('/frontend/assets/js/wow.min.js')}}"></script>
 <script>
     new WOW().init();
 </script>

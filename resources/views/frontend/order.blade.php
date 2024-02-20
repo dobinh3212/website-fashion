@@ -47,7 +47,7 @@
                         <tr>
                         <th scope="row">
                             <a href="{{route('cart.remove',$item->rowId)}}" style="color:#00c5bb!important;text-decoration: none;">
-                                <img src="{{asset('public/frontend/assets/images/trash.png')}} " alt="">
+                                <img src="{{asset('/frontend/assets/images/trash.png')}} " alt="">
                             </a>
                            </th>
                         <td ><img style="max-width:90px;max-height:100px" src="{{asset($item->options->image)}}" alt=""></td>
@@ -113,7 +113,7 @@
             </div>
             @else
                 <div class="not-cart">
-                    <img src="{{ asset('public/frontend/assets/images/cart-empty.png') }}" alt="">
+                    <img src="{{ asset('/frontend/assets/images/cart-empty.png') }}" alt="">
                     <p>Không có sản phẩm nào trong giỏ hàng của bạn</p>
                     <a href="{{ url('/') }}" class="btn btn-outline-success" title="trang chủ">Quay trở về trang
                         chủ </a>

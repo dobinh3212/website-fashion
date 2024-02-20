@@ -37,7 +37,7 @@
 
                                 <div class="form-group image ">
                                     <label id="avatar">Hình ảnh</label>
-                                    <img id="avatar" class="thumbnail" width="250px" height="auto" src="{{asset('public/backend/dist/img/import-img.png')}}">
+                                    <img id="avatar" class="thumbnail" width="250px" height="auto" src="{{asset('/backend/dist/img/import-img.png')}}">
                                     <input id="img" type="file" name="image" class="form-control src_img">
                                     @error('image')
                                     <small class="form-text text-danger ">
@@ -83,8 +83,8 @@
                             <div class="analytic " style="margin: 5px">
                                 <a href="{{ request()->fullUrlWithQuery(['status' => 'all']) }}" class="text-primary">Tất cả
                                     <span class="text-muted"> ({{ $count['all'] }}) |</span></a>
-                                <a href="{{ request()->fullUrlWithQuery(['status' => 'public']) }}" class="text-primary">
-                                    Hoạt Động<span class="text-muted">  ({{ $count['public'] }}) |</span></a>
+                                <a href="{{ request()->fullUrlWithQuery(['status' => '']) }}" class="text-primary">
+                                    Hoạt Động<span class="text-muted">  ({{ $count[''] }}) |</span></a>
                                 <a href="{{ request()->fullUrlWithQuery(['status' => 'pending']) }}" class="text-primary">Chờ
                                     duyệt<span class="text-muted" >  ({{ $count['pending'] }}) | </span></a>
                                 <a href="{{ request()->fullUrlWithQuery(['status' => 'trash']) }}" class="text-primary">Vô
